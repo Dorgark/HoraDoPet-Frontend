@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Bragan";
+  src: url("/fonts/bragan.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-pet-teal: #119488;
+  --color-pet-teal-hover: #0E7A70;
+  --color-pet-orange: #FF8A2B;
+  --color-pet-dark: #1B2432;
+  --color-pet-gray-btn: #BEC3C9;
+  --font-display: "Bragan", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    color: var(--color-pet-dark);
+    background-color: #ffffff;
+  }
+
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}

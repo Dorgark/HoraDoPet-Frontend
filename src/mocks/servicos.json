@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nome": "Consultas & Exames",
+    "descricao": "Atendimento clínico completo, vacinação, exames laboratoriais e de imagem com hora marcada para evitar estresse.",
+    "duracao_min": 45,
+    "preco": 120.00
+  },
+  {
+    "id": 2,
+    "nome": "Estética, Banho & Tosa",
+    "descricao": "Banho relaxante, tosa higiênica ou na tesoura com produtos hipoalergênicos e ambiente climatizado.",
+    "duracao_min": 60,
+    "preco": 75.00
+  },
+  {
+    "id": 3,
+    "nome": "Cirurgias & Especialidades",
+    "descricao": "Centro cirúrgico equipado para procedimentos complexos com acompanhamento pré e pós-operatório dedicado.",
+    "duracao_min": 90,
+    "preco": 250.00
+  }
+]
